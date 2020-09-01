@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-tg-config",
   "version": "1.0.0",
-  "description": "",
+  "description": "我自己习惯的eslint-config，发布一个，省去以后新项目自己写rules",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,6 +10,10 @@
     "eslint": ">=5",
     "eslint-plugin-vue": ">=6"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "taoguo",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tickly/eslint-config-tg-config.git"
+  }
 }
