@@ -1,6 +1,6 @@
 module.exports = {
   extends: [
-    'plugin:vue/recommended'
+    // 'plugin:vue/recommended'
   ],
   rules: {
     // 尾逗号不做提示，允许
