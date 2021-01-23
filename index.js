@@ -14,7 +14,9 @@ module.exports = {
     // Vue组件的参数顺序，不允许乱序
     'vue/order-in-components': 'error',
     // 不允许多个空白行
-    'no-multiple-empty-lines': 'error',
+    'no-multiple-empty-lines': ['error', {
+      max: 1
+    }],
     // 一行允许多少个属性值
     'vue/max-attributes-per-line': ['error', {
       'singleline': 5,
