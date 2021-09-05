@@ -5,8 +5,10 @@ module.exports = {
   rules: {
     // 尾逗号不做提示，允许
     'comma-dangle': 'off',
-    // 分号不做提示，允许
-    'semi': 'off',
+    // 就不允许分号
+    'semi': ['error', 'never'],
+    // 必须使用单引号
+    'quotes': ['error', 'single'],
     // 未使用的变量，允许
     'no-unused-vars': 'off',
     // vue 模板里面也允许未使用的变量
