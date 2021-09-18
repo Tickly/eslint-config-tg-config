@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-tg-config",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "我自己习惯的eslint-config，发布一个，省去以后新项目自己写rules",
   "main": "index.js",
   "scripts": {
